@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://static.readdy.ai/static/e.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeGuard Training - Professional CPR & First Aid Training</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#dc2626',
+                        secondary: '#1f2937'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        :where([class^="ri-"])::before {
+            content: "\f3c2";
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <nav class="w-full px-6 py-4">
+            <div class="max-w-7xl mx-auto flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <div class="w-8 h-8 flex items-center justify-center">
+                        <i class="ri-heart-pulse-line text-primary text-xl"></i>
+                    </div>
+                    <span class="text-xl font-['Pacifico'] text-gray-900">logo</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-gray-700 hover:text-primary">Home</a>
+                    <a href="#" class="text-gray-700 hover:text-primary">Services</a>
+                    <a href="#" class="text-gray-700 hover:text-primary">About</a>
+                    <a href="#" class="text-gray-700 hover:text-primary">Contact</a>
+                    <a href="#" class="text-gray-700 hover:text-primary">References</a>
+                </div>
+                <button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-red-700 whitespace-nowrap">Book Training</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center" style="background-image: url('https://readdy.ai/api/search-image?query=professional%20medical%20training%20classroom%20with%20CPR%20mannequins%20and%20instructor%20teaching%20students%20life%20saving%20techniques%20in%20modern%20bright%20facility%20with%20clean%20white%20background%20left%20side%20and%20detailed%20training%20equipment%20on%20right%20side%20professional%20medical%20education%20environment&width=1920&height=1080&seq=hero001&orientation=landscape'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-transparent"></div>
+        <div class="relative w-full px-6">
+            <div class="max-w-7xl mx-auto">
+                <div class="max-w-2xl">
+                    <h1 class="text-5xl font-bold text-gray-900 mb-6 leading-tight">Life-Saving Skills When Every Second Counts</h1>
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">Professional CPR, First Aid, and Fire Safety training courses designed to equip you with the confidence and skills to save lives in critical situations.</p>
+                    <div class="flex flex-col sm:flex-row gap-4 mb-12">
+                        <button class="bg-primary text-white px-8 py-4 !rounded-button hover:bg-red-700 text-lg font-semibold whitespace-nowrap">Book Training</button>
+                        <button class="border-2 border-gray-300 text-gray-700 px-8 py-4 !rounded-button hover:border-gray-400 text-lg font-semibold whitespace-nowrap">Learn More</button>
+                    </div>
+                    <div class="grid grid-cols-3 gap-8">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary mb-2">15+</div>
+                            <div class="text-sm text-gray-600">Years Experience</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary mb-2">5000+</div>
+                            <div class="text-sm text-gray-600">Students Trained</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary mb-2">98%</div>
+                            <div class="text-sm text-gray-600">Success Rate</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Why Choose LifeGuard Training?</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">We provide comprehensive training programs that meet industry standards and prepare you for real-world emergency situations.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="ri-medal-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Over 20+ Certifications</h3>
+                    <p class="text-gray-600">Comprehensive certification programs recognized by leading medical and safety organizations worldwide.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="ri-user-star-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Expert Qualified Instructors</h3>
+                    <p class="text-gray-600">Learn from certified professionals with years of real-world emergency response experience.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="ri-map-pin-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Flexible On-Site Training</h3>
+                    <p class="text-gray-600">Convenient training at your location with flexible scheduling to fit your team's needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Certification Courses -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Professional Certification Courses</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Choose from our comprehensive range of life-saving training programs designed for professionals and individuals.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="h-48 bg-cover bg-center" style="background-image: url('https://readdy.ai/api/search-image?query=professional%20CPR%20training%20with%20AED%20defibrillator%20and%20mannequin%20in%20clean%20modern%20medical%20training%20facility%20bright%20lighting%20medical%20equipment%20professional%20healthcare%20education%20environment&width=400&height=300&seq=course001&orientation=landscape');"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">CPR & AED Training</h3>
+                        <p class="text-gray-600 mb-4">Learn essential cardiopulmonary resuscitation techniques and automated external defibrillator operation.</p>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-sm text-gray-500">Duration: 4 hours</span>
+                            <span class="text-lg font-bold text-primary">£89</span>
+                        </div>
+                        <button class="w-full bg-primary text-white py-3 !rounded-button hover:bg-red-700 font-semibold whitespace-nowrap">Book Now</button>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="h-48 bg-cover bg-center" style="background-image: url('https://readdy.ai/api/search-image?query=advanced%20first%20aid%20training%20course%20with%20medical%20supplies%20bandages%20and%20emergency%20equipment%20in%20professional%20healthcare%20training%20center%20clean%20bright%20medical%20education%20setting&width=400&height=300&seq=course002&orientation=landscape');"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Advanced First Aid Course</h3>
+                        <p class="text-gray-600 mb-4">Comprehensive first aid training covering wound care, fractures, and emergency response protocols.</p>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-sm text-gray-500">Duration: 6 hours</span>
+                            <span class="text-lg font-bold text-primary">£129</span>
+                        </div>
+                        <button class="w-full bg-primary text-white py-3 !rounded-button hover:bg-red-700 font-semibold whitespace-nowrap">Book Now</button>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="h-48 bg-cover bg-center" style="background-image: url('https://readdy.ai/api/search-image?query=fire%20safety%20training%20course%20with%20fire%20extinguisher%20and%20safety%20equipment%20in%20professional%20training%20facility%20emergency%20preparedness%20workplace%20safety%20education%20bright%20clean%20environment&width=400&height=300&seq=course003&orientation=landscape');"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Fire Safety & Prevention</h3>
+                        <p class="text-gray-600 mb-4">Essential fire safety training including prevention, evacuation procedures, and extinguisher use.</p>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-sm text-gray-500">Duration: 3 hours</span>
+                            <span class="text-lg font-bold text-primary">£69</span>
+                        </div>
+                        <button class="w-full bg-primary text-white py-3 !rounded-button hover:bg-red-700 font-semibold whitespace-nowrap">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted by Leading Organizations -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Trusted by Leading Organizations</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Join thousands of professionals who trust us for their life-saving training needs.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl">
+                    <div class="mb-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                                <i class="ri-building-line text-blue-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-900">Manchester General Hospital</div>
+                                <div class="text-sm text-gray-600">Healthcare Provider</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 italic">"Exceptional training quality. Our staff felt confident and well-prepared after completing the CPR certification course."</p>
+                    </div>
+                    <div class="text-sm text-gray-600">
+                        <strong>Dr. Sarah Johnson</strong><br> Head of Emergency Medicine
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl">
+                    <div class="mb-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                                <i class="ri-school-line text-green-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-900">Riverside Academy</div>
+                                <div class="text-sm text-gray-600">Educational Institution</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 italic">"Professional instructors and comprehensive curriculum. Highly recommend for any organization prioritizing safety."</p>
+                    </div>
+                    <div class="text-sm text-gray-600">
+                        <strong>Michael Thompson</strong><br> Safety Coordinator
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl">
+                    <div class="mb-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
+                                <i class="ri-building-2-line text-purple-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-900">TechCorp Solutions</div>
+                                <div class="text-sm text-gray-600">Technology Company</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 italic">"Flexible scheduling and on-site training made it easy to certify our entire team. Outstanding service!"</p>
+                    </div>
+                    <div class="text-sm text-gray-600">
+                        <strong>Emma Williams</strong><br> HR Director
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ready to Protect Your Team CTA -->
+    <section class="py-20 bg-primary">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold text-white mb-6">Ready to Protect Your Team?</h2>
+            <p class="text-xl text-red-100 mb-8 leading-relaxed">Don't wait for an emergency to realize the importance of proper training. Equip your team with life-saving skills today.</p>
+            <button class="bg-white text-primary px-8 py-4 !rounded-button hover:bg-gray-100 text-lg font-semibold whitespace-nowrap">Book Training</button>
+        </div>
+    </section>
+
+    <!-- Get Your Team Certified Form -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Get Your Team Certified</h2>
+                <p class="text-xl text-gray-600">Fill out the form below and we'll contact you within 24 hours to discuss your training needs.</p>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <form class="space-y-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Full Name</label>
+                            <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter your full name">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
+                            <input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter your email">
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
+                            <input type="tel" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter your phone number">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Company Name</label>
+                            <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter company name">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">Training Type</label>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <label class="flex items-center">
+                                <input type="checkbox" class="hidden" id="cpr-training">
+                                <div class="w-5 h-5 border-2 border-gray-300 rounded mr-3 flex items-center justify-center cursor-pointer checkbox-custom">
+                                    <i class="ri-check-line text-white text-sm hidden"></i>
+                                </div>
+                                <span class="text-gray-700">Emergency/CPR Training</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="checkbox" class="hidden" id="first-aid">
+                                <div class="w-5 h-5 border-2 border-gray-300 rounded mr-3 flex items-center justify-center cursor-pointer checkbox-custom">
+                                    <i class="ri-check-line text-white text-sm hidden"></i>
+                                </div>
+                                <span class="text-gray-700">First Aid Training</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="checkbox" class="hidden" id="fire-safety">
+                                <div class="w-5 h-5 border-2 border-gray-300 rounded mr-3 flex items-center justify-center cursor-pointer checkbox-custom">
+                                    <i class="ri-check-line text-white text-sm hidden"></i>
+                                </div>
+                                <span class="text-gray-700">Fire Safety Training</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="checkbox" class="hidden" id="group-discount">
+                                <div class="w-5 h-5 border-2 border-gray-300 rounded mr-3 flex items-center justify-center cursor-pointer checkbox-custom">
+                                    <i class="ri-check-line text-white text-sm hidden"></i>
+                                </div>
+                                <span class="text-gray-700">Group Training Discount</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">Number of Participants</label>
+                        <input type="number" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter number of participants">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">Additional Information</label>
+                        <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Tell us about your specific training requirements..."></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="bg-primary text-white px-12 py-4 !rounded-button hover:bg-red-700 text-lg font-semibold whitespace-nowrap">Book Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-6">
+                        <div class="w-8 h-8 flex items-center justify-center">
+                            <i class="ri-heart-pulse-line text-primary text-xl"></i>
+                        </div>
+                        <span class="text-xl font-['Pacifico']">logo</span>
+                    </div>
+                    <p class="text-gray-300 mb-6">Professional life-saving training courses for individuals and organizations. Certified instructors, flexible scheduling, and comprehensive certification programs.</p>
+                    <div class="flex space-x-4">
+                        <div class="w-8 h-8 flex items-center justify-center">
+                            <i class="ri-facebook-fill text-gray-400 hover:text-white cursor-pointer"></i>
+                        </div>
+                        <div class="w-8 h-8 flex items-center justify-center">
+                            <i class="ri-twitter-fill text-gray-400 hover:text-white cursor-pointer"></i>
+                        </div>
+                        <div class="w-8 h-8 flex items-center justify-center">
+                            <i class="ri-linkedin-fill text-gray-400 hover:text-white cursor-pointer"></i>
+                        </div>
+                        <div class="w-8 h-8 flex items-center justify-center">
+                            <i class="ri-instagram-fill text-gray-400 hover:text-white cursor-pointer"></i>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-300 hover:text-white">Home</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Our Services</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Contact</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">References</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Book Training</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-300 hover:text-white">CPR Training</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">AED Certification</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">First Aid Courses</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Fire Safety Training</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">On-Site Training</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Group Discounts</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Contact Info</h4>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="w-5 h-5 flex items-center justify-center mt-1 mr-3">
+                                <i class="ri-map-pin-line text-primary"></i>
+                            </div>
+                            <div class="text-gray-300">
+                                <div>123 Training Center Drive</div>
+                                <div>Manchester, UK M1 2AB</div>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-3">
+                                <i class="ri-phone-line text-primary"></i>
+                            </div>
+                            <div class="text-gray-300">+44 161 123 4567</div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-3">
+                                <i class="ri-mail-line text-primary"></i>
+                            </div>
+                            <div class="text-gray-300">info@lifeguardtraining.co.uk</div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-3">
+                                <i class="ri-time-line text-primary"></i>
+                            </div>
+                            <div class="text-gray-300">Mon-Fri: 8AM-6PM</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 LifeGuard Training. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <script id="checkbox-functionality">
+        document.addEventListener('DOMContentLoaded', function() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+
+            checkboxes.forEach(checkbox => {
+                const customCheckbox = checkbox.nextElementSibling;
+                const checkIcon = customCheckbox.querySelector('i');
+
+                checkbox.addEventListener('change', function() {
+                    if (this.checked) {
+                        customCheckbox.classList.add('bg-primary', 'border-primary');
+                        customCheckbox.classList.remove('border-gray-300');
+                        checkIcon.classList.remove('hidden');
+                    } else {
+                        customCheckbox.classList.remove('bg-primary', 'border-primary');
+                        customCheckbox.classList.add('border-gray-300');
+                        checkIcon.classList.add('hidden');
+                    }
+                });
+
+                customCheckbox.addEventListener('click', function() {
+                    checkbox.click();
+                });
+            });
+        });
+    </script>
+
+    <script id="smooth-scroll">
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a[href^="#"]');
+
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
